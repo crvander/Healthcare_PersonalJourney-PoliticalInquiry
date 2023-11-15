@@ -8,8 +8,6 @@ library(quanteda.textstats)
 library(forcats)
 
 dcinbox_nl <- read_csv("data/dcinbox_full.csv")
-# dcinbox_nl <- read_csv("data/dcinbox.csv")
-# dcinbox_nl
 
 # check if column body has any missing values
 sum(is.na(dcinbox_nl$body))
